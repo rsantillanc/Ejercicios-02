@@ -1,30 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <title>Ejercicio 02 - Formularios en HTML</title>
-</head>
-<body>
+  <head>
+    <title>Ejercicio 02 - Formularios y Tablas en HTML</title>
+  </head>
+  <body>
+    <!--Ejercicio 2, parte 1-->
     <form action="/" method="get">
-        <div>
-            <label for="name">
-                Nombre
-            </label>
-            <input type="text" name="nombre" id="nombre">
-        </div>
-        <div>
-            <label for="name">
-                Edad
-            </label>
-            <input type="number" name="edad" id="name">
-        </div>
-        <div>
-            <label for="frase-favorita">
-                Frase favorita
-            </label>
-            <Textarea name="frase-favorita"></Textarea>
-        </div>
-        <button type="submit">Enviar</button>
-        <button type="reset">Reset</button>
+      <div>
+        <label for="name"> Nombre </label>
+        <input type="text" name="nombre" id="nombre" />
+      </div>
+      <div>
+        <label for="name"> Edad </label>
+        <input type="number" name="edad" id="name" />
+      </div>
+      <div>
+        <label for="frase-favorita"> Frase favorita </label>
+        <textarea name="frase-favorita"></textarea>
+      </div>
+      <button type="submit">Enviar</button>
+      <button type="reset">Reset</button>
     </form>
-</body>
+    <!--Ejercicio 2, parte 2-->
+
+    <table>
+        <tr>
+            <th>Título</th>
+            <th>Autor</th>
+            <th>Año de publicación</th>
+            <th>Enlace a Amazon</th>
+        </tr>
+        <tr>
+            <td>Atomic Kotlin</td>
+            <td>Bruce Eckel, Svetlana Isakova </td>
+            <td>2021</td>
+            <td>https://www.amazon.com/-/es/Bruce-Eckel/dp/0981872557/ref=sr_1_1?keywords=atomic+kotlin&qid=1662955572&sprefix=atomic+kotl%2Caps%2C198&sr=8-1</td>
+        </tr>
+        <tr>
+            <td>Kotlin in Action</td>
+            <td>Dmitry Jemerov, Svetlana Isakova</td>
+            <td>2020</td>
+            <td>https://www.amazon.com/Dmitry-Jemerov/dp/1617293296/ref=sr_1_2_sspa?keywords=atomic+kotlin&qid=1662955684&sprefix=atomic+kotl%2Caps%2C198&sr=8-2-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEzRTFJV0ZQSExST1JCJmVuY3J5cHRlZElkPUEwNjk0MDE4MzdFNjFZOEs1RTQ2UiZlbmNyeXB0ZWRBZElkPUEwMzM3NjkwTEFKOURRMVc1VUIzJndpZGdldE5hbWU9c3BfYXRmJmFjdGlvbj1jbGlja1JlZGlyZWN0JmRvTm90TG9nQ2xpY2s9dHJ1ZQ==</td>
+        </tr>
+        <tr>
+            <td>Head First Kotlin: A Brain-Friendly Guide 1st Edición</td>
+            <td>Dawn Griffiths</td>
+            <td>2020</td>
+            <td>Enlace a Amazonhttps://www.amazon.com/-/es/Dawn-Griffiths/dp/1491996692/ref=pd_bxgy_img_sccl_1/131-1793381-4200435?pd_rd_w=NVhIZ&content-id=amzn1.sym.7757a8b5-874e-4a67-9d85-54ed32f01737&pf_rd_p=7757a8b5-874e-4a67-9d85-54ed32f01737&pf_rd_r=GTVAZQNY1AH7T795X2TG&pd_rd_wg=hZTgW&pd_rd_r=3ec4638f-6199-4890-b13b-d2f660e79d9f&pd_rd_i=1491996692&psc=1</td>
+        </tr>
+    </table>
+  </body>
 </html>
